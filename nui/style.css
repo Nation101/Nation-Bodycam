@@ -1,0 +1,137 @@
+@font-face {
+    font-family: dashFont;
+    src: url('./VCR_OSD_MONO_1.001.ttf');
+    font-weight: bold;
+}
+
+
+#Bodycam_Body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    font-size: 18px;
+    font-family: "dashFont", "Lucida Console", Monaco, monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Bodycam_Clocktime {
+    position: absolute;
+    right: 120px;
+    top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Bodycam_Videonumber {
+    position: absolute;
+    right: 120px;
+    top: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Bodycam_Player {
+    position: absolute;
+    right: 120px;
+    top: 70px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Bodycam_Location {
+    position: absolute;
+    right: 120px;
+    top: 90px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Bodycam_Agency {
+    position: absolute;
+    right: 120px;
+    top: 110px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#Bodycam_Logo {
+    height: 70px;
+    right: 30px;
+    top: 50px;
+    position: absolute;
+}
+
+/* GoPro starts here */
+#GoPro_Body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    font-size: 18px;
+    font-family: "dashFont", "Lucida Console", Monaco, monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#GoPro_Date {
+    position: absolute;
+    right: 160px;
+    top: 60px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#GoPro_Clocktime {
+    position: absolute;
+    right: 160px;
+    top: 90px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#GoPro_Player {
+    position: absolute;
+    right: 160px;
+    top: 120px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#GoPro_Agency {
+    position: absolute;
+    right: 160px;
+    top: 150px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#GoPro_Logo {
+    height: 100px;
+    right: 30px;
+    top: 60px;
+    position: absolute;
+}

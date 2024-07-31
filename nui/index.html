@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Nation Bodycam</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="Bodycam_Body" v-show="showBody">
+            <img src="REPLACE ME" id="Bodycam_Logo">
+            <div id="Bodycam_Data">
+                <div id="Bodycam_ClockTime">{{clockTime.month}}-{{ clockTime.day }}-{{clockTime.year}} Local Time:{{clockTime.hour}}:{{clockTime.minute}}:{{clockTime.second}}</div>
+                <div id="Bodycam_Videonumber">AXON BODY 3 X{{videoNumber}}</div>
+                <div id="Bodycam_Player">{{callsign}} {{player}}</div>
+                <div id="Bodycam_Location">Current Street: {{location}}</div>
+                <div id="Bodycam_Agency">{{jobname}}</div>
+            </div>
+        </div>
+    </body>
+    <head>
+        <title>Nation GoPro</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="GoPro_Body" v-show="showGoPro">
+            <img src="REPLACE ME" id="GoPro_Logo">
+            <div id="GoPro_Data">
+                <div id="GoPro_Date">Date: {{clockTime.month}}-{{ clockTime.day }}-{{clockTime.year}}</div>
+                <div id="GoPro_ClockTime">Local Time: {{clockTime.hour}}:{{clockTime.minute}}:{{clockTime.second}}</div>
+                <div id="GoPro_Player">Name: {{player}}</div>
+                <div id="GoPro_Agency">Device: GoPro Hero 11 Pro</div> 
+            </div>
+        </div>
+        <script src="./vue.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
+

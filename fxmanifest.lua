@@ -1,13 +1,14 @@
 fx_version 'adamant'
 games { 'gta5' }
 
-description 'Bodycam System made for QBCore FiveM servers'
 author 'xdnation'
+description 'Bodycam System made for QBCore FiveM servers'
+version '1.0'
 ui_page "nui/index.html"
 
 dependencies {
     'qb-core',
-	'qb-management'
+    'qb-management'
 }
 
 files {

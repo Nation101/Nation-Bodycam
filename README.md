@@ -8,7 +8,7 @@
 ## Place the images in IMAGES TO ADD inside of your inventory images folder.
 
 ## Add the below to your qbcore\shared\items.lua
-QB-Core\Shared\Items.lua
+```
 ['gopro'] = {
     ['name'] = 'gopro',
     ['label'] = 'GoPro 11',
@@ -33,3 +33,4 @@ QB-Core\Shared\Items.lua
     ["combinable"] = nil,
     ["description"] = "Body Camera"
 },
+```

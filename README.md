@@ -1,6 +1,6 @@
 ## Dependencies
 ### QBCore
-### PS/QB
+### PS/QB Inventory
 
 ## Overlay Images
 ### Open the Index.html file located in the NUI folder. Place your FIVERMERR image url in the src="" of the img tag.

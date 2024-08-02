@@ -15,7 +15,6 @@ AddEventHandler("Nation:CheckJob", function()
     else
         jobname = "Law Enforcement"
     end
-    
 end)
 
 RegisterNetEvent("Nation:axon")
